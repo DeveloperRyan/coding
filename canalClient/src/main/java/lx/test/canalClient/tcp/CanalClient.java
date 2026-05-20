@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * canal.serverMode = tcp
  */
-//@Component
+@Component
 public class CanalClient implements InitializingBean {
 
     private final static int BATCH_SIZE = 1000;
